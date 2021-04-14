@@ -19,5 +19,16 @@
     "postcss": "^8.2.9",
     "postcss-modules": "^3.2.2",
     "rimraf": "^2.7.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "overrideBrowserslist": [
+          "> 1%",
+          "last 4 versions",
+          "ie >= 9"
+        ]
+      }
+    }
   }
 }
