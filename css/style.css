@@ -445,12 +445,12 @@
       margin-bottom: 60px;
     }
   
-    #all-film-info-container {
+    #all-food-info-container {
       flex-wrap: wrap;
       margin: auto;
     }
   
-    #info-film-container {
+    #info-food-container {
       margin-top: 40px;
     }
   
@@ -529,7 +529,7 @@
       margin-right: 20px;
     }
   
-    #info-film-container {
+    #info-food-container {
       width: 60vw;
       min-width: 300px;
       text-align: justify;
@@ -664,7 +664,7 @@
     padding-right: 7px;
   }
   
-  #all-film-info-container {
+  #all-food-info-container {
     display: flex;
   }
   
@@ -681,12 +681,18 @@
     margin-bottom: 7px;
   }
   
-  #info-film-container p {
+  #info-food-container p {
     margin: 20px 0px;
     line-height: 1.6rem;
   }
-  
-  #info-film-container img {
+
+
+  #ficha-container img.receta-img{
+    max-width:100%;
+  }
+
+
+  #info-food-container img.author-img {
     height: auto;
     width: 120px;
     float: left;
