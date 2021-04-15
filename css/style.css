@@ -424,12 +424,12 @@
       width: 100%;
     }
   
-    #clubes-tematicos-ls li {
+    #categorias-pre-ls li {
       width: 100vw;
       margin: 15px 15px 15px 15px;
     }
   
-    #clubes-tematicos-ls img {
+    #categorias-pre-ls img {
       max-width: 95vw;
     }
     .li-children-comida {
@@ -486,13 +486,13 @@
       width: 42%;
     }
   
-    #clubes-tematicos-ls li {
+    #categorias-pre-ls li {
       max-width: 350px;
       min-width: 350px;
       margin: 15px 15px 15px 15px;
     }
   
-    #clubes-tematicos-ls img {
+    #categorias-pre-ls img {
       max-width: 350px;
     }
   
@@ -569,21 +569,21 @@
     padding: 14px 30px 14px 30px;
   }
   
-  #clubes-tematicos-ls {
+  #categorias-pre-ls {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  #clubes-tematicos-ls h2 {
+  #categorias-pre-ls h2 {
     font-weight: normal;
     font-size: 1.4rem;
     margin-bottom: 10px;
     margin-top: 5px;
   }
   
-  #clubes-tematicos-ls h2:before {
+  #categorias-pre-ls h2:before {
     color: var(--red-color);
     content: " ···· ";
     margin-right: 8px;
