@@ -231,8 +231,6 @@
 
   #presentacion-container p {
     margin-top:10px;
-    font-size: 1.25rem;
-
   }
   
   @media only screen and (max-width: 768px) {
@@ -245,19 +243,11 @@
     }
   
     div.logo-header {
-      order: 2;
       width: 100%;
       margin-bottom: 15px;
     }
   
     div.links-header {
-      order: 3;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    div.button-header {
-      order: 1;
       width: 100%;
       margin-bottom: 20px;
     }
@@ -288,18 +278,6 @@
     justify-content: center;
     align-items: center;
   }
-  
-  button.btn {
-    background-color: var(--red-color);
-    color: white;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  button.btn-header {
-    padding: 8px 20px 8px 20px;
-  }
 
   figure.iframe-div {
     display: flex;
@@ -313,17 +291,14 @@
     margin-bottom: 40px;
   }
 
-  /* util */
   .font2rem {
     font-size: 2rem;
   }
   
-  /* util */
   .font1dot5rem {
     font-size: 1.5rem;
   }
   
-  /* util */
   .let-spa-min-1dot5 {
     letter-spacing: -1.5px;
   }
@@ -356,15 +331,6 @@
     list-style-type: none;
   }
   
-  #footer-links {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  div#footer-links ul {
-    display: flex;
-  }
-  
   #go-up-button {
     font-size: 1.7rem;
     font-weight: bold;
@@ -372,13 +338,6 @@
   }
   
   @media only screen and (min-width: 769px) {
-    div#footer-links li + li:before {
-      content: " · ";
-      font-size: 1rem;
-      font-weight: bolder;
-      padding-left: 10px;
-      padding-right: 7px;
-    }
     .intro-max-width {
       max-width: 67%;
       margin: auto;
@@ -389,21 +348,6 @@
   @media only screen and (max-width: 768px) {
     footer {
       text-align: center;
-    }
-  
-    #footer-links,
-    footer ul {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-  
-    #footer-links ul:last-child {
-      margin-top: 80px;
-    }
-  
-    footer ul li {
-      width: 100%;
     }
   }
   
@@ -419,11 +363,7 @@
       justify-content: space-evenly;
       flex-direction: column;
     }
-  
-    .block-unete {
-      width: 100%;
-    }
-  
+ 
     #categorias-pre-ls li {
       width: 100vw;
       margin: 15px 15px 15px 15px;
@@ -461,6 +401,7 @@
     }
   
     #breadcrumb-container {
+      max-width:100%;
       width: 100vw;
     }
   }
@@ -538,6 +479,7 @@
   
     #breadcrumb-container {
       width: 100vw;
+      max-width: 100%;
     }
   }
   
@@ -552,21 +494,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  
-  #block-unete-club-index input {
-    padding: 12px 0px 12px 10px;
-    margin: 8px 0;
-    border: 1px solid black;
-    font-size: 1.1rem;
-  }
-  
+
   #index-form-fields {
     display: flex;
     flex-direction: column;
-  }
-  
-  button.btn-register {
-    padding: 14px 30px 14px 30px;
   }
   
   #categorias-pre-ls {
@@ -593,18 +524,18 @@
     list-style-type: none;
   }
   
-  #films-covers-container li.li-parent-food:before {
+  #food-covers-container li.li-parent-food:before {
     color: var(--red-color);
     content: " ····· ";
     font-size: 1.8rem;
   }
   
-  #films-covers-container li.li-parent-food {
+  #food-covers-container li.li-parent-food {
     font-size: 1.4rem;
     font-weight: bold;
   }
   
-  #films-covers-container {
+  #food-covers-container {
     margin-top: 30px;
   }
   
