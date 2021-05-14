@@ -729,3 +729,20 @@ dd {
 .block-logo:nth-child(even) img:hover {
   animation: spin-inverse 2s ease-in-out infinite;
 }
+
+
+.clip-hexagon-type1 {
+  clip-path: polygon(0 50%, 25% 100%, 75% 100%, 100% 50%, 75% 0, 25% 0)
+}
+
+.clip-hexagon-type2 {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)
+}
+
+.clip-polygon {
+  clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%)
+}
+
+.clip-ellipse {
+  clip-path:ellipse(50% 40% at 50% 40%);
+}
