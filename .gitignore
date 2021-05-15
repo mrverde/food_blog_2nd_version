@@ -1,6 +1,6 @@
 /.cache/
 /dist/
-/distbak
+/distbak*
 /node_modules/
 *documentacion.*
 jdmatvaz*
